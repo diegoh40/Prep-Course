@@ -179,7 +179,7 @@ function agregarMetodoCalculoDescuento(producto) {
  // producto.push(calcularPrecioDescuento) = 
  producto.calcularPrecioDescuento = function() {
   return this.precio - ( this.precio * this.porcentajeDeDescuento );
-};
+}
 return producto;
 }
 
